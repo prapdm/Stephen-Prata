@@ -1,10 +1,5 @@
 #include <iostream>
  
-
-int main(void)
-{
-
-
 struct informacje
 {
 	std::string firma;
@@ -13,9 +8,13 @@ struct informacje
 	
 };
 
-informacje pizza;
- 
+
+int main(void)
+{
+
 using namespace std;
+informacje pizza;
+
 cout << "What is the company name?" << endl;
 cin >> pizza.firma;
 cout << "What is the diameter of a pizza?" << endl;
