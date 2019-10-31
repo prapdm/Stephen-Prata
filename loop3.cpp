@@ -5,9 +5,9 @@ int main(void)
 {
 
 using namespace std;
-int liczba,suma,b = 0;
+int liczba,suma = 0;
 
-cout << "Please enter the numbers and I will sum them up. If you have enough, write zero." << endl;
+cout << "Please enter the numbers and I will sum them up. If you have enough, write 0." << endl;
 
 do
 {
