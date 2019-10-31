@@ -12,8 +12,6 @@ int main(void)
 using namespace std;
 
 int sprzedaz,sum  = 0;
-string wyniki[y][m];
-
 
 cout << "Tell us how many books did you sell in last 3 years" << endl;
 
