@@ -6,8 +6,8 @@ int main(void)
 {
 	using namespace std;
 
-	//Deklarujemy dynamiczną tablicę vector
-	array<float,3> time;
+ 
+	array<long double,3> time;
 
 	cout << "Enter the first time measurement" << endl;
  	cin >> time[0];
