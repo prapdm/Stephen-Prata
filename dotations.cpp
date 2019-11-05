@@ -1,8 +1,6 @@
 //g++ -std=c++11  dotations.cpp
 #include <iostream>
 #include <array>
-#include <cctype>
-#include <cstring>
 
 
 int main(void)
