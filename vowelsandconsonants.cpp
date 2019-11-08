@@ -20,19 +20,19 @@ while( (ch = cin.get()) != 'q')
 	if(isalpha(ch))
 	{
 
-		//Pierwsza litera
+		//Pierwszy znak
 		if( (i-1) < 0 ) if(checkvowels(ch))  ++vowel ; else ++consonants;
 		else
 		{
 			//Kolejne
-			if(temp[i-1] == ' ' ) if(checkvowels(ch))  ++vowel ; else ++consonants; //jeśli litera i poprzednia litera to spacja
+			if(temp[i-1] == ' ' ) if(checkvowels(ch))  ++vowel ; else ++consonants; //jeśli poprzedni znak to spacja
 
 		}
 
 	} else 
 		{
 
-			//Pierwsza litera
+			//Pierwszy znak
 			if( (i-1) < 0 ) ++no;
 			else
 			{
