@@ -1,4 +1,3 @@
-//g++ -std=c++11  society.cpp
 #include <iostream>
 #include <cctype>
 
