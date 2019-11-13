@@ -22,7 +22,6 @@ cout << "Avarge: " << calculate_array(scores,size) << endl;
 return 0;
 }
  
-
 double calculate_array(double arr[], int n)
 { 
 
@@ -35,20 +34,13 @@ double calculate_array(double arr[], int n)
 		 sum += arr[i];
 	}
 
-
 return sum/n;
 }
-
-
- 
-
 
 void show_array(const double arr[], int n )
 {
 
 	using namespace std;
-
-
 	cout << "Scores: " ;
 
 	for (int i = 0; i < n; ++i)
@@ -57,11 +49,7 @@ void show_array(const double arr[], int n )
 	}
 
 	cout << endl ;
-
-
 }
-
-
 
 int fill_array(double * arr, int n) // lub fill_array(double  arr[], int n)
 {
@@ -80,10 +68,9 @@ int fill_array(double * arr, int n) // lub fill_array(double  arr[], int n)
 			cin.clear();
 			//pobierz pozostale znaki az do napotkania znaku nowej linie
 			while (cin.get() != '\n') continue;
-			//przerwij - wyjdz z petli while i wroc do petli for
 			cout << "Bad data provided :(" << endl;
-			break;
-		} else if(temp < 0) break;
+			break;//przerwij petle
+		} else if(temp < 0) break; //przerwij petle
 		else
 		
 		
