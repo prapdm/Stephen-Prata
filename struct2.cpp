@@ -12,7 +12,7 @@ int main(void)
 {
 
 using namespace std;
-informacje * pz = new informacje; //alokujemy dynamicznie strukturę
+informacje * pz = new informacje; //alokujemy dynamicznie strukturę w pamięci
  
 
 cout << "What is the company name?" << endl;

@@ -18,6 +18,7 @@ do
 
 	aritmetic = aritmetic_mean(n1,n2);
 
+	
 	cout << "Aritmetic mean = " << aritmetic << endl;
 	 
  
