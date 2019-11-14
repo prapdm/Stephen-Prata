@@ -9,7 +9,7 @@ using namespace std;
 
 double total,choises, powerball;
 
-cout << "Enter xax lottery box, number of draw balls and  powerball number. For exemple 49 6 " << endl;
+cout << "Enter xax lottery box, number of draw balls. For exemple 49 6 " << endl;
 
 	while((cin >> total >> choises) && choises <= total )
 	{
