@@ -2,8 +2,9 @@
 
 //stałe
 const short LEN = 30;
-int n = 1;
-int * pn = &n; 
+ 
+int * pn; 
+*pn = 1;
 
 //prtotypy
 void show(char * p_imie, int n = 1);
