@@ -12,6 +12,7 @@ int main(void)
 
 	using namespace std;
 	string input;
+	static string * pi = &input;
  
 	cout << "Enter text: " << endl;
 	getline(cin, input);
@@ -19,7 +20,7 @@ int main(void)
 	while(input != "")
 	{
  		
- 		static string * pi = &input;
+ 		
 		strcount(pi);
 		cout << "Enter next line (empty line end fun): " << endl;
 		getline(cin, input);
