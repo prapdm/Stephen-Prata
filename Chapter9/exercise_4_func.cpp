@@ -30,7 +30,7 @@ namespace SALES
 				sum += s.sales[i];
 			}
 
-		
+			
 
 			// find the max and min element
 
@@ -50,7 +50,7 @@ namespace SALES
 
 
 
-
+ 		s.average = sum/QUARTERS;
 
  		 
 
