@@ -17,7 +17,7 @@ strcpy(fname, m_fname);
 }
 
 
-void Person::show() const
+void Person::show() const 
 {
 	using std::cout;
 	using std::endl;
