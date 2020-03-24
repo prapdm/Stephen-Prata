@@ -2,9 +2,9 @@
 #include <iostream>
 
 //prototypy funkcji
-void addone(double & x); //sumuje elementy
-void minusone(double & x); //sumuje elementy
-void square(double & x); //mnozy przez siebie wszystkie elementy
+void addone(double & x); //x+1
+void minusone(double & x); //x-1
+void square(double & x); //x*x
 
 int main()
 {
